@@ -14,13 +14,14 @@ enforce_ssl: ""
 baseurl: "/ether"
 
 # Title of website
-title: Project Name
+title: Ether Explorations
 
 #Default keywords (used if no keywords are specified on a page basis)
-keywords: test1, test2, etc
+keywords: music, art, community
 
 # Short description of your site
 desc: Sample Description
+meta_description: "Art and Music"
 
 # --- Navigation bar options --- #
 
@@ -38,16 +39,14 @@ nav-links:
 
 # If the values are empty, they are ignored
 profile:
-  name: Babji Chetty
-  email: Your-Email
+  name: Ether Explorations
+  email: etherexplorations@gmail.com
   facebook: your-fb-id
   github: your-github-id
   twitter: your-twitter-id
-  linkedin: your-linkedin-id
-  stackoverflow: your-stackoverflow-id
 
 # To display link in the footer section
-pretty-url: "bchetty.com"
+pretty-url: "etherexplorations.com"
 
 # --- Misc --- #
 
@@ -58,7 +57,7 @@ disqus: "Your-Disqus-Id"
 google_analytics: "Your-GA-Id"
 
 # Set these options as you need (For more information, check Jekyll's site)
-timezone: "Europe/Berlin"
+timezone: "United States"
 markdown: kramdown
 #highlighter: rouge
 kramdown:
@@ -90,5 +89,5 @@ exclude:
   - README.md
   - CNAME
 
-created-by: Babji, Chetty
+created-by: Digital Scraps
 creator-url: https://bchetty.com
