@@ -20,9 +20,9 @@ url: "http://webjeda.com" # the base hostname & protocol for your site
 default-image: webjeda-logo-big.jpg # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
 
 #footer
-built-by: webjeda
+built-by: digitalscraps
 copyright:
-   name: webjeda
+   name: ether explorations
    link: 'http://etherexplorations.com'
 
 # Build settings
@@ -35,17 +35,17 @@ paginate_path: /page:num/
 analytics: UA-83979019-1
 
 # Comments
-disqus-shortname: webjeda-demo
+disqus-shortname: ether
 
 #social
-facebook: http://facebook.com/webjeda
-twitter: http://twitter.com/@webjeda
+facebook: http://facebook.com/
+twitter: http://twitter.com/
 github: http://github.com/ether-explorations
 
 #facebook like box
-fb-app-id: 
-fb-page-url:
-fb-page-title:
+fb-app-id:219048615215967
+fb-page-url:https://www.facebook.com/Ether-Explorations-219048615215967/
+fb-page-title:Ether Explorations
 
 # Sass style
 sass:
