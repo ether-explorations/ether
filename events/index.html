@@ -19,8 +19,7 @@ layout: default
                   {% else %}
                   <img width="100%" src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="{{site.title}}">
                   {% endif %}
-                  <div class="panel-body"><small>
-                    {{ post.excerpt " "}}</small>
+                  <div class="panel-body"><small>{{ post.excerpt | strip_html | strip_newlines | truncate: 50 }}</small>
                     <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">Read</a>
                   </div>
                 </div>
