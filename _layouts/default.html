@@ -2,7 +2,7 @@
 
 ---
 layout: compress
---- 
+---
 
 -->
 <!DOCTYPE html>
@@ -21,21 +21,22 @@ layout: compress
     </div>
 
     {% include footer.html %}
-    
+
 <script async>
     (function() {
-        var font = document.createElement('link'); 
-        font.type = 'text/css'; 
+        var font = document.createElement('link');
+        font.type = 'text/css';
         font.rel = 'stylesheet';
         font.href = '//fonts.googleapis.com/css?family=Raleway:400,700';
-        var s = document.getElementsByTagName('link')[0]; 
+        var s = document.getElementsByTagName('link')[0];
         s.parentNode.insertBefore(font, s);
       })();
 </script>
-    
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
  {% if site.analytics %}{% include analytics.html %}{% endif %}
+ <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-584f0377ce667628"></script>
   </body>
 
 </html>
