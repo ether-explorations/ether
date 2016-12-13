@@ -8,8 +8,8 @@
 # Site settings
 title: Ether Explorations
 email: etherexplorations@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-"Ether Exploration is a music and art zine."
+description: > # this means to ignore newlines until "baseurl:
+
 
 
 
@@ -43,9 +43,9 @@ twitter: http://twitter.com/
 github: http://github.com/ether-explorations
 
 #facebook like box
-fb-app-id:219048615215967
-fb-page-url: https://www.facebook.com/Ether-Explorations-219048615215967/
-fb-page-title:Ether Explorations
+fb-app-id: "219048615215967"
+fb-page-url: "https://www.facebook.com/Ether-Explorations-219048615215967/"
+fb-page-title: "Ether Explorations"
 
 # Sass style
 sass:
