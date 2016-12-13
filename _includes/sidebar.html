@@ -3,7 +3,7 @@
            {% if page.img %}
             <img width="600" src="{{site.baseurl}}/images/{{page.img}}" alt="{{page.title}}">
             {% else %}
-            <img width="600" src="{{site.baseurl}}/images/{{site.default-image}}" alt="webjeda">
+            <img width="600" src="{{site.baseurl}}/images/{{site.default-image}}" alt="ether-explorations">
             {% endif %}
         </div>
 
@@ -11,7 +11,7 @@
         <div class="mt10 recent">
             <h2>Things</h2>
              <ul>
-                {% for post in site.related_posts limit:3 %}
+                {% for post in site.related_posts limit:2 %}
 
                       <li>
                       <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
