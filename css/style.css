@@ -3,7 +3,7 @@ body {
 background-color: #cc9999;
 color: #000;
 margin: 0;
-font: 1em/1.5 "Open Sans", Helvetica, Arial, sans-serif;
+font: 1.84020em/1.5 "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 img {
@@ -25,7 +25,6 @@ h2 {
 
 h3 {
   font-size: 3.01125em;
-  color: #000;
   line-height: 1.2;
 }
 h4 {
@@ -51,7 +50,7 @@ a:link {
 }
 
 a:visited {
-  color: #ffffcc;
+  color: #333399;
 }
 
 a:hover {
