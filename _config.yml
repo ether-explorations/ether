@@ -48,9 +48,7 @@ fb-app-id: "219048615215967"
 fb-page-url: "https://www.facebook.com/etherexplorations/"
 fb-page-title: "Ether Explorations"
 
-# Sass style
-sass:
-  style: compressed
+
 
 # Ruby Gems
 gems: [jekyll-paginate, jekyll-seo-tag]
