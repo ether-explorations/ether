@@ -1,7 +1,7 @@
 /* Base Styles -------------------- */
 body {
 background-color: #cc9999;
-color: #000;
+color: #000033;
 margin: 0;
 font: 1.84020em/1.5 "Open Sans", Helvetica, Arial, sans-serif;
 }
@@ -18,22 +18,22 @@ h1 {
 }
 
 h2 {
-  font-size: 3.3125em; /* 53px/16px  */
+  font-size: 2.1747rem; /* 53px/16px  */
   font-weight: normal;
   line-height: 1.1;
 }
 
 h3 {
-  font-size: 3.01125em;
+  font-size: 2.67666rem;
   line-height: 1.2;
 }
 h4 {
-  font-size: 2.0075em;
+  font-size: 2rem;
   line-height: 1;
 }
 h6 {
-  font-size: 1.75em;
-  line-height: 2;
+  font-size: .8rem;
+  line-height: 1;
 }
 ul, ol {
   list-style: none;
@@ -45,21 +45,23 @@ li {
 
 /* Pseudo-classes ------------------ */
 a:link {
-  color: #ccffff;
-  border-bottom: .5px soild #ccffff;
+  color: #000033;
+  border-bottom: 0.669166em soild #cccc99;
 }
 
 a:visited {
-  color: #333399;
+  color: #000033;
+  border-bottom: 0.669166em soild #ff9999;
 }
 
 a:hover {
-  background-color:#66cc99;
-  color: 000;
+  background-color:#ccccff;
+  color: 000033;
+  border: none;
 }
 
 a:active {
-  color: #333399;
+  color: #000033;
 }
 
 
