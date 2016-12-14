@@ -38,15 +38,15 @@ analytics: UA-83979019-1
 disqus-shortname: Ether Explorations
 
 #social
-facebook: http://facebook.com/
+facebook: http://facebook.com/etherexplorations/
 twitter: http://twitter.com/
 github: http://github.com/ether-explorations
 soundcloud: https://soundcloud.com/etherexplorations
 bandcamp: https://etherexplorations.bandcamp.com
 
 #facebook like box
-fb-app-id: ""
-fb-page-url: "https://www.facebook.com/Ether-Explorations-219048615215967/"
+fb-app-id: "219048615215967"
+fb-page-url: "https://www.facebook.com/etherexplorations/"
 fb-page-title: "Ether Explorations"
 
 # Sass style
