@@ -1,4 +1,48 @@
 /* Base Styles -------------------- */
 body {
-  background-color:blue;
+background: #cc9999
+color: #000;
+margin: 0;
+font: 1em/1.5 "Open Sans", Helvetica, Arial, sans-serif;
 }
+/* Pseudo-classes ------------------ */
+a:link {
+  color: #000;
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: #66cc99;
+  background-color:#ffffff;
+}
+
+a:hover {
+  background-color:#66cc99;
+}
+
+a:active {
+  color: #fff;
+  baclground-color: #999999:
+}
+
+
+/* Main Styles --------------------- */
+
+
+/* Layout Styles ------------------ */
+
+
+
+
+/* Naviagation -------------------- */
+.navbar-brand {
+    font-weight: 900;
+    font-size: 1.85em;
+    padding: 10px;
+    @media screen and (max-width: $on-palm) {
+        font-size: 1.5em;
+    }
+}
+
+/* Base Styles -------------------- */
