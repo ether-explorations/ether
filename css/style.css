@@ -50,15 +50,16 @@ a:active {
 footer {
     border-top: 1px solid $grey-color-light;
 }
-.et__footer a {
-  font: 2rem;
+.et__footer {
+    margin-top: 20px;
+    font: 2rem;
 }
+
+
 .mt50 {
     margin-top: 50px;
 }
-.mt20 {
-    margin-top: 20px;
-}
+
 
 .mt10 {
     margin-top: 10px;
