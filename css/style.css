@@ -46,18 +46,20 @@ li {
 /* Pseudo-classes ------------------ */
 a:link {
   color: #000033;
-  border-bottom: 0.669166em soild #cccc99;
+  background: #cccc99;
+  border: 1px soild #cccc99;
 }
 
 a:visited {
   color: #000033;
-  border-bottom: 0.669166em soild #ff9999;
+  border: 1px soild #ff9999;
 }
 
 a:hover {
   background-color:#ccccff;
   color: 000033;
   border: none;
+  text-decoration: none;
 }
 
 a:active {
