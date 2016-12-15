@@ -79,7 +79,6 @@ a:active {
 }
 .navbar-brand a:hover{
   color: #cccc99;
-  background-color: none;
 }
 .navbar-brand {
     font-weight: 900;
@@ -106,22 +105,13 @@ footer {
 }
 
 
-.mt10 {
-    margin-top: 10px;
-}
+
 
 .post-meta {
-    color: $grey-color;
+    color: grey;
 }
 
-.panel {
-    border:none;
-    box-shadow: 0px 0px 1px $grey-color;
-}
 
-.panel:hover {
-    box-shadow: 0px 0px 6px $grey-color;
-}
 
 
 /* Social -------------------- */
@@ -147,6 +137,17 @@ footer {
 }
 
 /* Event Page -------------------- */
+.panel {
+    border:none;
+    box-shadow: 0px 0px 1px grey;
+    background-color: none;
+    border-bottom: 1px solid #cccc99;
+}
+
+.panel:hover {
+    box-shadow: 0px 0px 6px grey;
+}
+
 .recent ul {
     list-style: none;
     padding: 0;
@@ -155,7 +156,7 @@ footer {
 
 .recent {
     padding: 10px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid grey;
 }
 
 .post-img img {
@@ -175,4 +176,7 @@ footer {
 .card {
     float: none;
 
+}
+.mt10 {
+    margin: 10px;
 }
