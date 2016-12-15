@@ -138,9 +138,6 @@ footer {
 
 /* Event Page -------------------- */
 .panel {
-    border:none;
-    box-shadow: 0px 0px 1px grey;
-    background-color: none;
     border-bottom: 1px solid #cccc99;
 }
 
