@@ -139,7 +139,6 @@ footer {
 
 /* Event Page -------------------- */
 .et__panel {
-    border-bottom: 1px solid #cccc99;
     margin-bottom: 20px;
 }
 
@@ -181,4 +180,5 @@ footer {
 }
 .post-meta {
     color: #cccc99;
+    font-size: 1rem;
 }
