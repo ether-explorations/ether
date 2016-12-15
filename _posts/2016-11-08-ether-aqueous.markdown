@@ -3,7 +3,7 @@ layout: post
 title:  "Ether Aqueous"
 date:   2016-11-08 10:51:47 +0530
 categories: jekyll update
-img: image-1.png
+img: aqua.jpg
 categories: [one, two]
 ---
 ### Sarah Reid//Dråsa + Laine//Roshni//Bella Blaze
