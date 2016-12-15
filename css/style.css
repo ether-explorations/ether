@@ -107,9 +107,7 @@ footer {
 
 
 
-.post-meta {
-    color: grey;
-}
+
 
 
 
@@ -137,8 +135,9 @@ footer {
 }
 
 /* Event Page -------------------- */
-.panel {
+.et__panel {
     border-bottom: 1px solid #cccc99;
+    margin-bottom: 20px;
 }
 
 .panel:hover {
@@ -176,4 +175,7 @@ footer {
 }
 .mt10 {
     margin: 10px;
+}
+.post-meta {
+    color: #cccc99;
 }
