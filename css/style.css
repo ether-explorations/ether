@@ -74,7 +74,7 @@ a:active {
 
 /* Naviagation -------------------- */
 .site-header a:link {
-  display: none;
+  color: #000;
 }
 .site-header a:hover{
   color: #cccc99;
