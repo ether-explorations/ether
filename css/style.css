@@ -85,7 +85,10 @@ a:active {
     padding: 10px;
     color: #fff;
 }
-
+footer {
+  margin-top: 20px;
+  border-top: 4px dotted #000;
+}
 .et__footer {
     margin-top: 20px;
     font: 2rem;
