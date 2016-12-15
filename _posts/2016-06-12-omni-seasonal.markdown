@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ether Omni-seasonal Omens"
+title:  "Omni-seasonal Omens"
 categories: zine
 img: omni.jpg
 categories: two
