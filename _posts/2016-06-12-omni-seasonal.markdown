@@ -5,6 +5,6 @@ categories: zine
 img: omni.jpg
 categories: two
 ---
-# Zine 01
+### Zine 01
 
 [ether explorations zine 01](https://omni-seasonal-omens.tumblr.com/)

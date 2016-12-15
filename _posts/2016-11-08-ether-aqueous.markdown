@@ -6,7 +6,7 @@ categories: jekyll update
 img: image-1.png
 categories: [one, two]
 ---
-###Sarah Reid//Dråsa + Laine//Roshni//Bella Blaze
+### Sarah Reid//Dråsa + Laine//Roshni//Bella Blaze
 
 Ether: Aqueous is a curated drone and experimental music showcase inspired by the Journey's in Deep Sense Exploration series held on the 2nd Wednesday of each month.
 
