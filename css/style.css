@@ -46,7 +46,7 @@ li {
 /* Pseudo-classes ------------------ */
 a:link {
   color: #000033;
-  background: #cccc99;
+  border: 1px soild #cccc99;
 }
 
 a:visited {
@@ -74,8 +74,8 @@ a:active {
 
 /* Naviagation -------------------- */
 .navbar-brand a:link {
-  color: #000;
-  background-color:none;
+  color: #fff;
+  border: none;
 }
 .navbar-brand a:hover{
   color: #cccc99;
