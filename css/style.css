@@ -1,6 +1,6 @@
 /* Base Styles -------------------- */
 body {
-background-color: #9999cc;
+background-color: #fff;
 color: #000033;
 margin: 0;
 font: 1.84020em/1.5 "Open Sans", Helvetica, Arial, sans-serif;
@@ -45,8 +45,7 @@ li {
 
 /* Pseudo-classes ------------------ */
 a:link {
-  color: #000033;
-  border: 1px soild #cccc99;
+  color: #9999cc;
 }
 
 a:visited {
@@ -58,7 +57,7 @@ a:hover {
   background-color:#ccccff;
   color: 000033;
   border: none;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:active {
@@ -73,11 +72,11 @@ a:active {
 
 
 /* Naviagation -------------------- */
-.navbar-brand a:link {
-  color: #fff;
+.navbar-brand:link {
+  color: #9999cc;
   border: none;
 }
-.navbar-brand a:hover{
+.navbar-brand:hover{
   color: #cccc99;
 }
 .navbar-brand {
@@ -87,16 +86,6 @@ a:active {
     color: #fff;
 }
 
-.et_navlink li {
-  font size: 1rem;
-}
-.et_brand {
-  color: #cccc99;
-}
-
-footer {
-
-}
 .et__footer {
     margin-top: 20px;
     font: 2rem;
