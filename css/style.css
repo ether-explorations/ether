@@ -73,6 +73,13 @@ a:active {
 
 
 /* Naviagation -------------------- */
+.site-header a:link {
+  display: none;
+}
+.site-header a:hover{
+  color: #cccc99;
+  background-color: none;
+}
 .navbar-brand {
     font-weight: 900;
     font-size: 1.85em;

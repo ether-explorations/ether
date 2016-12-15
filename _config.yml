@@ -28,7 +28,7 @@ copyright:
 markdown: kramdown
 permalink: /:title/
 paginate: 6
-paginate_path: /events/page:num/
+paginate_path: /news/page:num/
 
 # Tracker
 analytics: UA-83979019-1
