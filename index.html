@@ -1,29 +1,64 @@
 ---
-layout: home
+layout: default
 ---
 
-<header class="site-header">
-<nav class="navbar navbar-default navbar-inverse">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{site.baseurl}}/">{{site.title}}</a>
+<div class="home">
+
+
+    <div class="row pack">
+
+        {% for post in paginator.posts %}
+            <div class="col-md-4 card">
+
+                <div class="et__panel">
+                  <div class="panel-body">
+                    <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
+                  </div>
+                  {% if post.img %}
+                  <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
+                  {% else %}
+                  <img width="100%" src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="{{site.title}}">
+                  {% endif %}
+                  <div class="panel-body"><small>{{ post.excerpt | strip_html | strip_newlines | truncate: 50 }}</small>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">Read</a>
+                  </div>
+                </div>
+            </div>
+
+          {% endfor %}
+
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{site.baseurl}}/info/">Info</a></li>
-        <li><a href="https://omni-seasonal-omens.tumblr.com/">Ether Zine 01: Omni-seasonal Omens</a></li>
-        <li><a href="{{site.baseurl}}/news/">News</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-</header>
+<div class="row">
+    <div class="col-md-4">  </div>
+    <div class="col-md-4">
+        {% if paginator.total_pages > 1 %}
+        <ul class="pagination">
+          {% if paginator.previous_page %}
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+          {% else %}
+            <li><span>&laquo; Prev</span></li>
+          {% endif %}
+
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <li class="active"><span><em>{{ page }}</em></span></li>
+            {% elsif page == 1 %}
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+            {% else %}
+            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+            {% endif %}
+          {% endfor %}
+
+          {% if paginator.next_page %}
+            <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+          {% else %}
+            <li><span >Next &raquo;</span></li>
+          {% endif %}
+          </ul>
+        {% endif %}
+
+    </div>
+    <div class="col-md-4">  </div>
+</div>
+</div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ether Embers
-img: dribbble.jpg
+img: explore.jpg
 ---
 
 
