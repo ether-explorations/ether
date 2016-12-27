@@ -46,18 +46,17 @@ li {
 /* Pseudo-classes ------------------ */
 a:link {
   color: #9999cc;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px dotted #000;
 }
 
 a:visited {
   color: #000033;
-  border: 1px soild #ff9999;
+  border: 1px solid #ff9999;
 }
 
 a:hover {
   background-color:#ccccff;
   color: 000033;
-  border: none;
   text-decoration: underline;
 }
 
@@ -75,7 +74,6 @@ a:active {
 /* Naviagation -------------------- */
 .navbar-brand:link {
   color: #9999cc;
-  border: none;
 }
 .navbar-brand:hover{
   color: #cccc99;
