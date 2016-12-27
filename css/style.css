@@ -46,6 +46,7 @@ li {
 /* Pseudo-classes ------------------ */
 a:link {
   color: #9999cc;
+  border-bottom: 1px solid #fff;
 }
 
 a:visited {
