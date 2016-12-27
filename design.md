@@ -11,6 +11,7 @@ For example: what kind of overall feeling do we want the site to have, and does 
 - [post-modern](https://theoutline.com/), 
 - [cybertwee](http://cybertwee.net/), 
 - [brutalist](http://brutalistwebsites.com/)
+
 Right now we can do pretty much whatever we want to the "skin" of the site without breaking anything. If you have a style that you like post it to the facebook thread I started in the exther explorations group about overall style direction. 
 
 ## Major assets needed
