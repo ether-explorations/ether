@@ -2,7 +2,8 @@
 
 Thanks for your intrest in helping colloborate with Ether Explorations! This is the github site which holds the code and hosts the website. I will update this page as we progress with the design process. Cheers!
 
-### 01
+### post 01 
+###### december 27th, 2016
 
 ## First we need a style direction to work towards
 For example: what kind of overall feeling do we want the site to have, and does this ride on any pre-existing styles? Some web design examples are: 
