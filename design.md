@@ -1,4 +1,4 @@
-#Things we need
+#Design a better EtherEX!!
 
 Thanks for your intrest in helping colloborate with Ether Explorations! This is the github site which holds the code and hosts the website. I will update this page as we progress with the design process. Cheers!
 
