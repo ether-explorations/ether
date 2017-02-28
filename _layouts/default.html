@@ -28,7 +28,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58507276e554e8ad"></script> 
+ {% if site.analytics %}{% include analytics.html %}{% endif %}
   </body>
 
 </html>
