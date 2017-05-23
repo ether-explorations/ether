@@ -1,0 +1,15 @@
+  button {
+    background-color: black;
+    border: none;
+    color: #fff;
+    padding: .5em 1em;
+  }
+  button:hover {
+    color: #a58a63;
+  }
+  button:focus {
+    box-shadow: none;
+  }
+  .wei-img-slide {
+    height: 300px;
+  }

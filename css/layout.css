@@ -1,0 +1,63 @@
+/* Flex-Box Navbar (NB) 
+with brand on left and links on right */
+.l-nb-f {
+    display: flex;
+    flex-wrap: wrap;
+}
+.l-nb-item {
+    flex: 1 0 auto;
+}
+.l-nb-start {
+    align-self: flex-start;
+    padding:  1.25rem 1.125rem 0.625rem 1.125rem ; /* 18px */
+    font-size: 22px;
+    line-height: 26.4px;
+}
+.l-nb-link-container {
+    margin-left: auto;
+    align-self: flex-end;
+    display: flex;
+}
+.l-nb-link-container a {
+    flex: 2 0 auto;
+    padding:  1.25rem 1.125rem 0.625rem 1.125rem ; /* 18px */
+    font-size: 22px;
+    line-height: 26.4px;
+}
+
+
+
+/* Feature Content (FC) Grid and Flexbox with Background Image */
+.l-fc {
+    min-height: 424px;
+    padding: 1.875rem 3.75rem 3.75rem 3.75rem;
+}
+.l-fc-f {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.flex-twothirds {
+    flex: 2 auto;
+}
+.flex-square {
+    flex: 1 auto;
+    display:flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.box-light {
+    background-color: #cccccc;
+}
+.box-med {
+    background-color: #b2b2b2;
+}
+.box-dark {
+    background-color: #989898;
+}
