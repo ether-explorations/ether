@@ -1,61 +1,104 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ether Explorations</title>
+   <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/component.css">
 
-<div class="home">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/40a3ac7d65.js"></script>
+  <script src="https://use.typekit.net/xzc7xys.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+
+  <!--Navbar with Logo on Left and Links on Right-->
+    <nav class="l-nb-f">
+      <a class="img l-nb-item l-nb-start" href="index.html">logo</a>
+      <div class="l-nb-link-container">
+        <a class="l-nb-item" href="info.html">Info</a>
+        <a class="l-nb-item" href="#">Zine</a>
+      </div>
+  </nav>
+
+  <main>
+  <!--Feature Content Section-->
+    <a href="index.html">
+        <header class="l-fc l-fc-f">
+          <h1>Ether 08 Air</h1>
+        <div class="l-nb-f">
+        <h4>Anvil Salute</h4>
+        <h4>Sun Riah</h4>
+        <h4>Laine</h4>
+        <h4>AP MFG</h4>
+        </div>
+
+      </header>
+    </a>
+<!--Row 1-->
 
 
-    <div class="row pack">
-
-        {% for post in paginator.posts %}
-            <div class="col-md-4 card">
-
-                <div class="et__panel">
-                  <div class="panel-body">
-                    <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
-                  </div>
-                  {% if post.img %}
-                  <a href="{{ post.url | prepend: site.baseurl }}"><img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}"></a>
-                  {% else %}
-                  <img width="100%" src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="{{site.title}}">
-                  {% endif %}
-                  <div class="panel-body"><small>{{ post.excerpt | strip_html | strip_newlines | truncate: 50 }}</small>
-                  </div>
-                </div>
-            </div>
-
-          {% endfor %}
-
+  <!--Gallery-->
+  <section class="flex-container">
+     <div class="box-med flex-square">
+      <a href="http://placehold.it"><img src="http://placehold.it/360x360"></a>
     </div>
 
-<div class="row">
-    <div class="col-md-4">  </div>
-    <div class="col-md-4">
-        {% if paginator.total_pages > 1 %}
-        <ul class="pagination">
-          {% if paginator.previous_page %}
-            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
-          {% else %}
-            <li><span>&laquo; Prev</span></li>
-          {% endif %}
-
-          {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-              <li class="active"><span><em>{{ page }}</em></span></li>
-            {% elsif page == 1 %}
-            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
-            {% else %}
-            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-            {% endif %}
-          {% endfor %}
-
-          {% if paginator.next_page %}
-            <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
-          {% else %}
-            <li><span >Next &raquo;</span></li>
-          {% endif %}
-          </ul>
-        {% endif %}
-
+    <div class="box-dark flex-twothirds">
+      <h2>June 7</h2>
+      <h4>7:30 - 11</h4>
+      <h4>Resonator Art Space</h4>
     </div>
-    <div class="col-md-4">  </div>
-</div>
-</div>
+  </section>
+
+  <section class="flex-container">
+    <div class="box-dark flex-twothirds">
+      <h2>I want to Go</h2>
+    </div>
+
+     <div class="box-med flex-square">
+      <a href="http://placehold.it"><img src="http://placehold.it/360x360"></a>
+    </div>
+  </section>
+
+  <main>
+  <!--Two Pictures with Links-->
+    <section class="flex-container">
+      <div class="box-med flex-square">
+      <a href="http://placehold.it"><img src="http://placehold.it/260x260"></a>
+    </div>
+    <div class="box-med flex-square">
+      <a href="http://placehold.it"><img src="http://placehold.it/260x260"></a>
+    </div>
+    </section>
+
+    <!--contact-->
+    <section class="flex-container">
+     <div class="box-med flex-twothirds">
+      
+    </div>
+
+    <div class="box-dark flex-square">
+      <p>Say Hi</p>
+      <h2>Contact</h2>
+      <h3><a href="mailto:etherexplorations@gmail.com">etherexplorations@gmail.com</h3>
+    </div>
+  </section>
+  </main>
+
+
+
+  <footer>
+    <a href="#"><i class="fa fa-facebook fa-4" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-instagram fa-4" aria-hidden="true"></i></a>
+    <p>&copy; 2017 Ether Explorations Code by Alli Campbell</p>
+  </footer>
+
+   </main>
+
+</body>
+<html>
