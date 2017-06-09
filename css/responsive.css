@@ -1,0 +1,18 @@
+@media screen and (min-width: 300px){
+
+
+
+@media screen and (min-width: 798px){
+}
+@media screen and (min-width: 960px){
+  .wrap {
+    background: #fff;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .primary,.secondary {
+    max-width: 90%;
+    margin: 30px auto;
+  }
+
+}
