@@ -2,41 +2,48 @@
     box-sizing: border-box;
   }
   body {
-    background-color: #fff;
-    font-family: 'Maven Pro', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 0.625rem;
-    max-width: 940px;
+    max-width: 1200px;
     margin: 0 auto;
+    background-image: 
+      linear-gradient(
+    rgba(255,232,229,1) 5%, 
+    rgba(224,119,79,.60) 45%,
+    rgb(128,164,168) 100%
+);
   }
 
   /*Global Font Displays */
   h1 {
-    font-family: 'Maven Pro', Arial, sans-serif;
-    font-size: 5em;
+    color: #000;
+    text-transform: lowercase;
+    font-size: 3rem;
     font-weight: bolder;
   }
   h2 {
-    font-family: 'Maven Pro', Arial, sans-serif;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: bold;
+    display: inline;
+    padding: 5px;
+    margin: 0 0 1rem 0;
   }
   h3 {
-    font-family: 'Maven Pro', Arial, sans-serif;
     font-size: 3em;
     font-weight: bold;
   }
   h4 {
-    font-family: 'Maven Pro', Arial, sans-serif;
+
     font-size: 2em;
   }
   h5 {
-    font-family: 'Maven Pro', Arial, sans-serif;
+
     font-size: 1em;
   }
 
   /* Links and Images */
   a {
-    color: black;
+    color: #000000;
     text-decoration: none;
     font-size: 16px;
     padding: 0;
@@ -58,10 +65,20 @@
     padding: 0;
     margin: 0;
   }
+  @media screen and (min-width: 768px){
+    main {
+        padding: 1.875rem 3.75rem 3.75rem 3.75rem;
+    }
+}
 
   header {
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 0;
   }
+  @media screen and (min-width: 768px){
+    header {
+        margin-bottom: 4rem;
+    }
+}
 
   section {
   margin-bottom: 1.25rem;
@@ -73,3 +90,23 @@
   footer a {
     padding: 1rem;
   }
+
+/* Media Quieries for Fonts */
+@media screen and (max-width: 400px){
+       header h1 {
+       font-size: 2rem;
+     }
+     h2 {
+       font-size: 2rem;
+     }
+}
+
+@media screen and (min-width: 798px){
+     header h1 {
+       font-size: 5rem;
+     }
+     h2 {
+       font-size: 4rem;
+     }
+}
+
