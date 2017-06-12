@@ -1,0 +1,111 @@
+/* Basic Flexbox & Grid Elements  */
+.flex-twothirds {
+    flex: 2 auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.flex-square {
+    flex: 1 auto;
+    display:flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+} 
+
+@media screen and (min-width: 768px){
+    .flex-container {
+        flex-flow: row wrap;
+    }
+}
+
+
+/* Flex-Box Navbar (NB) 
+with brand on left and links on right */
+.l-nb-f {
+    display: flex;
+    flex-wrap: wrap;
+}
+.l-nb-item {
+    flex: 1 0 auto;
+}
+.l-nb-start {
+    align-self: stretch;
+}
+.l-nb-link-container {
+    margin: 0 auto;
+    align-self: flex-end;
+    display: flex;
+    flex-flow: row wrap;
+}
+.l-nb-link-container a {
+    flex: 2 0 auto;
+    padding:  1.25rem 1.125rem 0.625rem 1.125rem ; /* 18px */
+}
+
+/* Media Quieres for Naviagion Bar */
+
+@media screen and (max-width: 350px){
+    .l-nb-link-container {
+        margin: 0;
+        align-self: flex-start;
+        display: flex;
+        flex-flow: column;
+    }
+     }
+
+@media screen and (min-width: 580px){
+    .l-nb-link-container {
+        margin-left: auto;
+        align-self: flex-end;
+        display: flex;
+    }
+}
+
+/* Feature Content (FC) Grid and Flexbox with Background Image */
+.l-fc {
+    padding: 1.875rem 3.75rem 3.75rem 3.75rem;
+}
+.l-fc-f {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.l-fc-background {
+    background-image: url("../img/art.png");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px){
+    .l-fc {
+        min-height: 424px;
+    }
+}
+
+#logo {
+    height: 80px;
+    width: 120px;
+}
+
+/* Color */
+.soft-blend {
+    background-blend-mode: overlay;
+
+}
+.lpink {
+    background-color: rgba(255,232,229,.4);
+    background-blend-mode: soft-light;
+}
+.lorange {
+    background-color: rgba(249,183,157,.4);
+    background-blend-mode: soft-light;
+}
+.lblue {
+    background-color: rgba(128,164,168,.4);
+}
