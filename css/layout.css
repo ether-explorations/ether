@@ -77,7 +77,6 @@ with brand on left and links on right */
 }
 .l-fc-background {
     background-image: url("../img/purp.png");
-    background-blend-mode: color-dodge;
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
