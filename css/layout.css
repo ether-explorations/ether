@@ -67,26 +67,15 @@ with brand on left and links on right */
 }
 
 /* Feature Content (FC) Grid and Flexbox with Background Image */
-.l-fc {
-    padding: 1.875rem 3.75rem 3.75rem 3.75rem;
-}
+
 .l-fc-f {
     display: flex;
     flex-direction: column;
     align-content: center;
 }
-.l-fc-background {
-    background-image: url("../img/purp.png");
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
-@media screen and (min-width: 768px){
-    .l-fc {
-        min-height: 424px;
-    }
-}
+
+
 
 #logo {
     height: 80px;
