@@ -11,6 +11,11 @@
     justify-content: center;
 }
 
+.flex-square-col {
+    display:flex;
+    justify-content: center;
+}
+
 .flex-container {
     display:flex;
     flex-flow: column;
